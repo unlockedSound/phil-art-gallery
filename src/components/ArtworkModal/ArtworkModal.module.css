@@ -1,0 +1,74 @@
+.overlay {
+  position: fixed;
+  inset: 0;
+  background: rgba(255, 255, 255, 0.95);
+  z-index: 100;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: var(--spacing-md);
+}
+
+.panel {
+  position: relative;
+  width: 100%;
+  max-width: 700px;
+  max-height: 90vh;
+  overflow-y: auto;
+  background: var(--color-bg);
+}
+
+.closeButton {
+  position: absolute;
+  top: 0;
+  right: 0;
+  background: none;
+  border: none;
+  font-size: 1.1rem;
+  cursor: pointer;
+  padding: var(--spacing-xs) var(--spacing-sm);
+  color: var(--color-text);
+  line-height: 1;
+}
+
+.closeButton:hover {
+  opacity: 0.6;
+}
+
+.images {
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing-md);
+}
+
+.image {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+.metadata {
+  margin-top: var(--spacing-md);
+  padding-bottom: var(--spacing-md);
+}
+
+.title {
+  font-family: var(--font-serif);
+  font-size: 1.5rem;
+  font-weight: normal;
+  margin: 0 0 var(--spacing-sm) 0;
+}
+
+.meta {
+  font-family: var(--font-sans);
+  font-size: 0.85rem;
+  color: var(--color-subtle);
+  margin: 0 0 var(--spacing-xs) 0;
+}
+
+.sold {
+  font-family: var(--font-sans);
+  font-size: 0.85rem;
+  color: var(--color-text);
+  margin: var(--spacing-xs) 0 0 0;
+}

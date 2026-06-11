@@ -1,0 +1,34 @@
+.nav {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: var(--spacing-sm, 8px) var(--spacing-lg, 32px);
+  align-items: center;
+}
+
+.link {
+  font-family: var(--font-sans, system-ui, sans-serif);
+  font-size: 0.8rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--color-text, #000000);
+  text-decoration: none;
+}
+
+.link:hover {
+  text-decoration: underline;
+}
+
+.active {
+  text-decoration: underline;
+}
+
+@media (max-width: 600px) {
+  .nav {
+    gap: var(--spacing-xs, 4px) var(--spacing-md, 16px);
+  }
+
+  .link {
+    font-size: 0.75rem;
+  }
+}

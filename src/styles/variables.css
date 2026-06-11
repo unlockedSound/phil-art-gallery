@@ -1,0 +1,25 @@
+:root {
+  /* Colors */
+  --color-bg: #ffffff;
+  --color-text: #000000;
+  --color-subtle: #6b6b6b;
+  --color-overlay: rgba(255, 255, 255, 0.95);
+
+  /* Typography */
+  --font-serif: 'Georgia', 'Times New Roman', Times, serif;
+  --font-sans: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  --font-size-base: 16px;
+  --line-height-base: 1.6;
+
+  /* Spacing */
+  --spacing-xs: 4px;
+  --spacing-sm: 8px;
+  --spacing-md: 16px;
+  --spacing-lg: 32px;
+  --spacing-xl: 64px;
+
+  /* Layout */
+  --max-width: 900px;
+  --header-padding-v: var(--spacing-lg);
+  --content-padding-v: var(--spacing-xl);
+}
