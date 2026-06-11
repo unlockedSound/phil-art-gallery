@@ -1,0 +1,5 @@
+title: Fragment
+medium: Plaster
+size: 8" × 6" × 4"
+year: 2022
+sold: no

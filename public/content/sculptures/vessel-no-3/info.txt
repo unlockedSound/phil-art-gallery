@@ -1,0 +1,5 @@
+title: Vessel No. 3
+medium: Ceramic
+size: 10" × 10" × 10"
+year: 2024
+sold: no
