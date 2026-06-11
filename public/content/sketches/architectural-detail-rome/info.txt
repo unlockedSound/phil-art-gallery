@@ -1,5 +1,0 @@
-title: Architectural Detail, Rome
-medium: Pen on paper
-size: 9" × 12"
-year: 2022
-sold: no
