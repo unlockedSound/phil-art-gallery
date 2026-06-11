@@ -1,5 +1,0 @@
-title: Torso Study I
-medium: Fired clay
-size: 14" × 10" × 8"
-year: 2021
-sold: yes
