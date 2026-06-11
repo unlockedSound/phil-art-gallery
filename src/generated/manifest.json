@@ -1,11 +1,257 @@
 {
-  "paintings": [],
-  "sculptures": [],
-  "sketches": [],
+  "paintings": [
+    {
+      "id": "p1",
+      "title": "Morning Light",
+      "coverImage": "https://picsum.photos/seed/morninglight/600/600",
+      "images": [
+        "https://picsum.photos/seed/morninglight/900/700"
+      ],
+      "medium": "Oil on canvas",
+      "size": "24\" × 36\"",
+      "year": 2023,
+      "sold": false
+    },
+    {
+      "id": "p2",
+      "title": "The Harbor at Dusk",
+      "coverImage": "https://picsum.photos/seed/harbordusk/600/600",
+      "images": [
+        "https://picsum.photos/seed/harbordusk/900/700"
+      ],
+      "medium": "Acrylic on canvas",
+      "size": "30\" × 40\"",
+      "year": 2022,
+      "sold": true
+    },
+    {
+      "id": "p3",
+      "title": "Still Life with Oranges",
+      "coverImage": "https://picsum.photos/seed/stilllifeoranges/600/600",
+      "images": [
+        "https://picsum.photos/seed/stilllifeoranges/900/700"
+      ],
+      "medium": "Oil on canvas",
+      "size": "18\" × 24\"",
+      "year": 2024,
+      "sold": false
+    },
+    {
+      "id": "p4",
+      "title": "Mountain Pass",
+      "coverImage": "https://picsum.photos/seed/mountainpass/600/600",
+      "images": [
+        "https://picsum.photos/seed/mountainpass/900/700"
+      ],
+      "medium": "Oil on linen",
+      "size": "36\" × 48\"",
+      "year": 2021,
+      "sold": false
+    },
+    {
+      "id": "p5",
+      "title": "Reclining Figure",
+      "coverImage": "https://picsum.photos/seed/recliningfig/600/600",
+      "images": [
+        "https://picsum.photos/seed/recliningfig/900/700"
+      ],
+      "medium": "Oil on canvas",
+      "size": "24\" × 30\"",
+      "year": 2023,
+      "sold": true
+    },
+    {
+      "id": "p6",
+      "title": "Winter Birches",
+      "coverImage": "https://picsum.photos/seed/winterbirches/600/600",
+      "images": [
+        "https://picsum.photos/seed/winterbirches/900/700"
+      ],
+      "medium": "Acrylic on panel",
+      "size": "20\" × 20\"",
+      "year": 2022,
+      "sold": false
+    },
+    {
+      "id": "p7",
+      "title": "Evening Tide",
+      "coverImage": "https://picsum.photos/seed/eveningtide/600/600",
+      "images": [
+        "https://picsum.photos/seed/eveningtide/900/700"
+      ],
+      "medium": "Oil on canvas",
+      "size": "16\" × 20\"",
+      "year": 2024,
+      "sold": false
+    },
+    {
+      "id": "p8",
+      "title": "Portrait of Elena",
+      "coverImage": "https://picsum.photos/seed/portraitelena/600/600",
+      "images": [
+        "https://picsum.photos/seed/portraitelena/900/700"
+      ],
+      "medium": "Oil on linen",
+      "size": "24\" × 30\"",
+      "year": 2023,
+      "sold": false
+    }
+  ],
+  "sculptures": [
+    {
+      "id": "s1",
+      "title": "Emerging Form",
+      "coverImage": "https://picsum.photos/seed/emergingform/600/600",
+      "images": [
+        "https://picsum.photos/seed/emergingform/700/900",
+        "https://picsum.photos/seed/emergingform2/700/900"
+      ],
+      "medium": "Bronze",
+      "size": "12\" × 8\" × 8\"",
+      "year": 2022,
+      "sold": false
+    },
+    {
+      "id": "s2",
+      "title": "The Weight of Air",
+      "coverImage": "https://picsum.photos/seed/weightofair/600/600",
+      "images": [
+        "https://picsum.photos/seed/weightofair/700/900"
+      ],
+      "medium": "Cast resin",
+      "size": "18\" × 6\" × 6\"",
+      "year": 2023,
+      "sold": false
+    },
+    {
+      "id": "s3",
+      "title": "Torso Study I",
+      "coverImage": "https://picsum.photos/seed/torsostudy/600/600",
+      "images": [
+        "https://picsum.photos/seed/torsostudy/700/900",
+        "https://picsum.photos/seed/torsostudy2/700/900"
+      ],
+      "medium": "Fired clay",
+      "size": "14\" × 10\" × 8\"",
+      "year": 2021,
+      "sold": true
+    },
+    {
+      "id": "s4",
+      "title": "Vessel No. 3",
+      "coverImage": "https://picsum.photos/seed/vessel3/600/600",
+      "images": [
+        "https://picsum.photos/seed/vessel3/700/900"
+      ],
+      "medium": "Ceramic",
+      "size": "10\" × 10\" × 10\"",
+      "year": 2024,
+      "sold": false
+    },
+    {
+      "id": "s5",
+      "title": "Fragment",
+      "coverImage": "https://picsum.photos/seed/sculptfragment/600/600",
+      "images": [
+        "https://picsum.photos/seed/sculptfragment/700/900"
+      ],
+      "medium": "Plaster",
+      "size": "8\" × 6\" × 4\"",
+      "year": 2022,
+      "sold": false
+    }
+  ],
+  "sketches": [
+    {
+      "id": "sk1",
+      "title": "Figure Study I",
+      "coverImage": "https://picsum.photos/seed/figurestudy1/600/600",
+      "images": [
+        "https://picsum.photos/seed/figurestudy1/700/900"
+      ],
+      "medium": "Graphite on paper",
+      "size": "12\" × 16\"",
+      "year": 2024,
+      "sold": false
+    },
+    {
+      "id": "sk2",
+      "title": "City Street, Quick Study",
+      "coverImage": "https://picsum.photos/seed/citystreetsketch/600/600",
+      "images": [
+        "https://picsum.photos/seed/citystreetsketch/900/700"
+      ],
+      "medium": "Ink on paper",
+      "size": "9\" × 12\"",
+      "year": 2023,
+      "sold": false
+    },
+    {
+      "id": "sk3",
+      "title": "Portrait Sketch: Marta",
+      "coverImage": "https://picsum.photos/seed/portraitmarta/600/600",
+      "images": [
+        "https://picsum.photos/seed/portraitmarta/700/900"
+      ],
+      "medium": "Charcoal on paper",
+      "size": "11\" × 14\"",
+      "year": 2023,
+      "sold": true
+    },
+    {
+      "id": "sk4",
+      "title": "Hands, Various Studies",
+      "coverImage": "https://picsum.photos/seed/handsstudies/600/600",
+      "images": [
+        "https://picsum.photos/seed/handsstudies/700/900"
+      ],
+      "medium": "Graphite on paper",
+      "size": "8.5\" × 11\"",
+      "year": 2024,
+      "sold": false
+    },
+    {
+      "id": "sk5",
+      "title": "Architectural Detail, Rome",
+      "coverImage": "https://picsum.photos/seed/archdetailrome/600/600",
+      "images": [
+        "https://picsum.photos/seed/archdetailrome/900/700"
+      ],
+      "medium": "Pen on paper",
+      "size": "9\" × 12\"",
+      "year": 2022,
+      "sold": false
+    },
+    {
+      "id": "sk6",
+      "title": "Landscape Sketch, Vermont",
+      "coverImage": "https://picsum.photos/seed/landscapevt/600/600",
+      "images": [
+        "https://picsum.photos/seed/landscapevt/900/700"
+      ],
+      "medium": "Charcoal on paper",
+      "size": "11\" × 14\"",
+      "year": 2021,
+      "sold": false
+    }
+  ],
   "about": {
-    "photo": null,
-    "name": "",
-    "bio": ""
+    "photo": "https://picsum.photos/seed/philharmon/500/600",
+    "name": "Philip Harmon",
+    "bio": "Philip Harmon is a painter and sculptor based in the Hudson Valley, New York. His work explores the tension between light and form — from intimate still lifes to expansive landscapes — using a practice rooted in direct observation and decades of atelier training in Florence and New York City.\n\nPhilip studied at the New York Academy of Art and spent two years as a resident at the Florence Academy of Art, where he developed the rigorous draftsmanship that underpins everything he makes today. His paintings favor natural light, a limited palette, and the quiet authority of objects and figures at rest.\n\nHis work has been shown at galleries in New York, Vermont, and London. He teaches occasional workshops on oil painting and figure drawing, and accepts a small number of portrait commissions each year."
   },
-  "contact": []
+  "contact": [
+    {
+      "label": "Email",
+      "href": "mailto:philip@philipharmon.com"
+    },
+    {
+      "label": "Instagram",
+      "href": "https://instagram.com"
+    },
+    {
+      "label": "Inquire about commissions",
+      "href": "mailto:commissions@philipharmon.com"
+    }
+  ]
 }
