@@ -7,6 +7,7 @@
       "size": "25”x18”",
       "year": "2025",
       "sold": false,
+      "group": null,
       "images": [
         "/content/paintings/Cascade du Chatelat/Chutes du Chatelat - Philippe Berhault - 2025.JPG"
       ],
@@ -19,6 +20,7 @@
       "size": "12”x16”",
       "year": "2025",
       "sold": false,
+      "group": null,
       "images": [
         "/content/paintings/Central Park South/Central Park.jpg"
       ],
@@ -31,6 +33,7 @@
       "size": "",
       "year": "2025",
       "sold": false,
+      "group": null,
       "images": [
         "/content/paintings/Imaginary mountains/Imaginary summits.jpg"
       ],
@@ -43,6 +46,7 @@
       "size": "",
       "year": "2025",
       "sold": false,
+      "group": null,
       "images": [
         "/content/paintings/Seaside Strawl/Large format _ Untitled 122025 - Crop Mountain.JPG",
         "/content/paintings/Seaside Strawl/Large format _ Untitled 122025 - CropFigure.JPG",
@@ -57,6 +61,7 @@
       "size": "",
       "year": "",
       "sold": false,
+      "group": null,
       "images": [
         "/content/paintings/The Stump/The Stump.jpg"
       ],
@@ -69,6 +74,7 @@
       "size": "",
       "year": "2026",
       "sold": false,
+      "group": null,
       "images": [
         "/content/paintings/Winter Trail/Winter Trail.jpg"
       ],
@@ -83,6 +89,7 @@
       "size": "",
       "year": "2026",
       "sold": false,
+      "group": null,
       "images": [
         "/content/sculptures/One foot forward/one foot forward.jpg"
       ],
@@ -97,6 +104,7 @@
       "size": "",
       "year": "2025",
       "sold": false,
+      "group": null,
       "images": [
         "/content/sketches/Sanary sur Mer/Mediteranean Lights.jpg"
       ],
@@ -109,6 +117,7 @@
       "size": "",
       "year": "2025",
       "sold": false,
+      "group": null,
       "images": [
         "/content/sketches/Seaside in Britany/Seaside in Britany.jpg"
       ],
@@ -121,6 +130,7 @@
       "size": "",
       "year": "2026",
       "sold": false,
+      "group": null,
       "images": [
         "/content/sketches/Warming up/Untitled - Pastel.jpg"
       ],
@@ -133,6 +143,7 @@
       "size": "",
       "year": "2024",
       "sold": false,
+      "group": null,
       "images": [
         "/content/sketches/Winter in Petworth - DC/Winter in Petworth - DC.jpg"
       ],

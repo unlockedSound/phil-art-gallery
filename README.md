@@ -45,10 +45,12 @@ Medium: Oil on canvas
 Size: 24" x 36"
 Year: 2024
 Sold: No
+Group:
 ```
 
 - Only `Title` is required. You can remove any other line you don't need.
 - To mark a piece as sold, change `Sold: No` to `Sold: Yes`.
+- Leave `Group:` blank unless you want this piece displayed side-by-side with another — see the section below.
 
 Click **Commit changes** at the bottom to save.
 
@@ -72,6 +74,25 @@ Navigate to the artwork's folder (e.g. `public/content/paintings/sunset-series/`
 Delete each file inside it: click the file, then click the trash icon (or the **...** menu → **Delete file**), and commit.
 
 Once all files are deleted, GitHub automatically removes the empty folder.
+
+---
+
+## Displaying artworks side by side
+
+You can display two or more artworks in a single row by giving them the same `Group` value in their text files.
+
+**Example:** to show "Winter Trail" and "Central Park South" side by side, open each of their text files and set the same group name:
+
+```
+Group: winter-landscapes
+```
+
+A few rules:
+
+- The group name can be anything you like — it just has to match exactly (case-sensitive) across all the pieces you want grouped.
+- Only works that are **consecutive** in the folder listing will be grouped together. If another piece sits between them alphabetically, the group will be broken.
+- On mobile screens, grouped works always stack into a single column — the side-by-side layout is desktop only.
+- To remove a piece from a group, clear the value so the line reads `Group:` with nothing after it, or remove the line entirely.
 
 ---
 
@@ -144,6 +165,7 @@ If a build fails (red), click into it to see the error. Most errors are caused b
 | Add a sketch | `public/content/sketches/` → same as above |
 | Remove an artwork | Delete all files inside its folder |
 | Mark as sold | Edit `info.txt`, set `Sold: Yes` |
+| Display works side by side | Give them the same `Group:` value in their text files |
 | Update your photo | `public/content/about/` → delete old photo, upload new one |
 | Update your bio | Edit `public/content/about/bio.txt` |
 | Update contact links | Edit `public/content/contact/contact.txt` |

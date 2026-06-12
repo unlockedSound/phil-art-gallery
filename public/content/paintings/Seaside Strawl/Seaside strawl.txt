@@ -3,3 +3,4 @@ Medium: Oil on Canvas
 Size:
 Year: 2025
 Sold:No
+Group:

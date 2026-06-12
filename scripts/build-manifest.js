@@ -74,6 +74,7 @@ function buildSection(section) {
       size: info.size || '',
       year: info.year || '',
       sold: info.sold?.toLowerCase() === 'yes',
+      group: info.group || null,
       images,
       coverImage: images[0] ?? null,
     }
