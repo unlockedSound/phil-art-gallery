@@ -6,26 +6,29 @@
 }
 
 .header {
-  padding: var(--header-padding-v, 32px) var(--spacing-md, 16px) var(--spacing-md, 16px);
-  border-bottom: none;
+  padding: 46px var(--spacing-md, 16px) 30px;
+  text-align: center;
 }
 
 .headerInner {
   max-width: var(--max-width, 900px);
   margin: 0 auto;
   display: flex;
-  align-items: baseline;
-  justify-content: space-between;
-  gap: var(--spacing-lg, 32px);
+  flex-direction: column;
+  align-items: center;
+  gap: 16px;
 }
 
 .siteTitle {
-  font-family: var(--font-serif, Georgia, serif);
-  font-size: 2rem;
+  font-family: var(--font-sans, system-ui, sans-serif);
+  font-size: 0.85rem;
   font-weight: normal;
+  letter-spacing: 0.3em;
+  text-transform: uppercase;
   color: var(--color-text, #000000);
   text-decoration: none;
-  white-space: nowrap;
+  display: block;
+  margin-bottom: 2px;
 }
 
 .siteTitle:hover {
@@ -35,19 +38,7 @@
 .content {
   max-width: var(--max-width, 900px);
   margin: 0 auto;
-  padding: var(--content-padding-v, 64px) var(--spacing-md, 16px);
+  padding: 0 var(--spacing-md, 16px);
   width: 100%;
   flex: 1;
-}
-
-@media (max-width: 600px) {
-  .headerInner {
-    flex-direction: column;
-    align-items: flex-start;
-    gap: var(--spacing-md, 16px);
-  }
-
-  .siteTitle {
-    font-size: 1.6rem;
-  }
 }

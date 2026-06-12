@@ -17,8 +17,15 @@ function toTitleCase(str) {
   return str.replace(/-/g, ' ').replace(/\b\w/g, c => c.toUpperCase())
 }
 
-function parseInfoTxt(filePath) {
+function parseInfoTxt(dirOrFile) {
   try {
+    let filePath = dirOrFile
+    // If given a directory path, find the first .txt file in it
+    if (statSync(dirOrFile).isDirectory()) {
+      const txts = readdirSync(dirOrFile).filter(f => f.toLowerCase().endsWith('.txt')).sort()
+      if (txts.length === 0) return {}
+      filePath = join(dirOrFile, txts[0])
+    }
     const text = readFileSync(filePath, 'utf8')
     const result = {}
     for (const line of text.split('\n')) {
@@ -58,7 +65,7 @@ function buildSection(section) {
   return sets.map(setName => {
     const setDir = join(sectionDir, setName)
     const urlPrefix = `/content/${section}/${setName}`
-    const info = parseInfoTxt(join(setDir, 'info.txt'))
+    const info = parseInfoTxt(setDir)
     const images = getImages(setDir, urlPrefix)
     return {
       id: setName,

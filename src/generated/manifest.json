@@ -1,257 +1,153 @@
 {
   "paintings": [
     {
-      "id": "evening-tide",
-      "title": "Evening Tide",
-      "medium": "Oil on canvas",
-      "size": "16\" × 20\"",
-      "year": "2024",
+      "id": "Cascade du Chatelat",
+      "title": "Chute du Chatelat",
+      "medium": "Oil on Canvas",
+      "size": "25”x18”",
+      "year": "2025",
       "sold": false,
       "images": [
-        "/content/paintings/evening-tide/01.jpg"
+        "/content/paintings/Cascade du Chatelat/Chutes du Chatelat - Philippe Berhault - 2025.JPG"
       ],
-      "coverImage": "/content/paintings/evening-tide/01.jpg"
+      "coverImage": "/content/paintings/Cascade du Chatelat/Chutes du Chatelat - Philippe Berhault - 2025.JPG"
     },
     {
-      "id": "harbor-at-dusk",
-      "title": "The Harbor at Dusk",
-      "medium": "Acrylic on canvas",
-      "size": "30\" × 40\"",
-      "year": "2022",
-      "sold": true,
-      "images": [
-        "/content/paintings/harbor-at-dusk/01.jpg"
-      ],
-      "coverImage": "/content/paintings/harbor-at-dusk/01.jpg"
-    },
-    {
-      "id": "morning-light",
-      "title": "Morning Light",
-      "medium": "Oil on canvas",
-      "size": "24\" × 36\"",
-      "year": "2023",
+      "id": "Central Park South",
+      "title": "Mid Day in Central Park",
+      "medium": "Oil on Canvas",
+      "size": "12”x16”",
+      "year": "2025",
       "sold": false,
       "images": [
-        "/content/paintings/morning-light/01.jpg"
+        "/content/paintings/Central Park South/Central Park.jpg"
       ],
-      "coverImage": "/content/paintings/morning-light/01.jpg"
+      "coverImage": "/content/paintings/Central Park South/Central Park.jpg"
     },
     {
-      "id": "mountain-pass",
-      "title": "Mountain Pass",
-      "medium": "Oil on linen",
-      "size": "36\" × 48\"",
-      "year": "2021",
+      "id": "Imaginary mountains",
+      "title": "Imaginary summits",
+      "medium": "Acrylic on Canvas",
+      "size": "",
+      "year": "2025",
       "sold": false,
       "images": [
-        "/content/paintings/mountain-pass/01.jpg"
+        "/content/paintings/Imaginary mountains/Imaginary summits.jpg"
       ],
-      "coverImage": "/content/paintings/mountain-pass/01.jpg"
+      "coverImage": "/content/paintings/Imaginary mountains/Imaginary summits.jpg"
     },
     {
-      "id": "portrait-of-elena",
-      "title": "Portrait of Elena",
-      "medium": "Oil on linen",
-      "size": "24\" × 30\"",
-      "year": "2023",
+      "id": "Seaside Strawl",
+      "title": "Seaside strawl",
+      "medium": "Oil on Canvas",
+      "size": "",
+      "year": "2025",
       "sold": false,
       "images": [
-        "/content/paintings/portrait-of-elena/01.jpg"
+        "/content/paintings/Seaside Strawl/Large format _ Untitled 122025 - Crop Mountain.JPG",
+        "/content/paintings/Seaside Strawl/Large format _ Untitled 122025 - CropFigure.JPG",
+        "/content/paintings/Seaside Strawl/Large format _ Untitled 122025 - To share 5.jpg"
       ],
-      "coverImage": "/content/paintings/portrait-of-elena/01.jpg"
+      "coverImage": "/content/paintings/Seaside Strawl/Large format _ Untitled 122025 - Crop Mountain.JPG"
     },
     {
-      "id": "reclining-figure",
-      "title": "Reclining Figure",
-      "medium": "Oil on canvas",
-      "size": "24\" × 30\"",
-      "year": "2023",
-      "sold": true,
-      "images": [
-        "/content/paintings/reclining-figure/01.jpg"
-      ],
-      "coverImage": "/content/paintings/reclining-figure/01.jpg"
-    },
-    {
-      "id": "still-life-with-oranges",
-      "title": "Still Life with Oranges",
-      "medium": "Oil on canvas",
-      "size": "18\" × 24\"",
-      "year": "2024",
+      "id": "The Stump",
+      "title": "The Stump",
+      "medium": "",
+      "size": "",
+      "year": "",
       "sold": false,
       "images": [
-        "/content/paintings/still-life-with-oranges/01.jpg"
+        "/content/paintings/The Stump/The Stump.jpg"
       ],
-      "coverImage": "/content/paintings/still-life-with-oranges/01.jpg"
+      "coverImage": "/content/paintings/The Stump/The Stump.jpg"
     },
     {
-      "id": "winter-birches",
-      "title": "Winter Birches",
-      "medium": "Acrylic on panel",
-      "size": "20\" × 20\"",
-      "year": "2022",
+      "id": "Winter Trail",
+      "title": "Winter Trail",
+      "medium": "Oil on Board",
+      "size": "",
+      "year": "2026",
       "sold": false,
       "images": [
-        "/content/paintings/winter-birches/01.jpg"
+        "/content/paintings/Winter Trail/Winter Trail.jpg"
       ],
-      "coverImage": "/content/paintings/winter-birches/01.jpg"
+      "coverImage": "/content/paintings/Winter Trail/Winter Trail.jpg"
     }
   ],
   "sculptures": [
     {
-      "id": "emerging-form",
-      "title": "Emerging Form",
-      "medium": "Bronze",
-      "size": "12\" × 8\" × 8\"",
-      "year": "2022",
+      "id": "One foot forward",
+      "title": "One foot forward",
+      "medium": "Paster",
+      "size": "",
+      "year": "2026",
       "sold": false,
       "images": [
-        "/content/sculptures/emerging-form/01.jpg",
-        "/content/sculptures/emerging-form/02.jpg"
+        "/content/sculptures/One foot forward/one foot forward.jpg"
       ],
-      "coverImage": "/content/sculptures/emerging-form/01.jpg"
-    },
-    {
-      "id": "fragment",
-      "title": "Fragment",
-      "medium": "Plaster",
-      "size": "8\" × 6\" × 4\"",
-      "year": "2022",
-      "sold": false,
-      "images": [
-        "/content/sculptures/fragment/01.jpg"
-      ],
-      "coverImage": "/content/sculptures/fragment/01.jpg"
-    },
-    {
-      "id": "torso-study-i",
-      "title": "Torso Study I",
-      "medium": "Fired clay",
-      "size": "14\" × 10\" × 8\"",
-      "year": "2021",
-      "sold": true,
-      "images": [
-        "/content/sculptures/torso-study-i/01.jpg",
-        "/content/sculptures/torso-study-i/02.jpg"
-      ],
-      "coverImage": "/content/sculptures/torso-study-i/01.jpg"
-    },
-    {
-      "id": "vessel-no-3",
-      "title": "Vessel No. 3",
-      "medium": "Ceramic",
-      "size": "10\" × 10\" × 10\"",
-      "year": "2024",
-      "sold": false,
-      "images": [
-        "/content/sculptures/vessel-no-3/01.jpg"
-      ],
-      "coverImage": "/content/sculptures/vessel-no-3/01.jpg"
-    },
-    {
-      "id": "weight-of-air",
-      "title": "The Weight of Air",
-      "medium": "Cast resin",
-      "size": "18\" × 6\" × 6\"",
-      "year": "2023",
-      "sold": false,
-      "images": [
-        "/content/sculptures/weight-of-air/01.jpg"
-      ],
-      "coverImage": "/content/sculptures/weight-of-air/01.jpg"
+      "coverImage": "/content/sculptures/One foot forward/one foot forward.jpg"
     }
   ],
   "sketches": [
     {
-      "id": "architectural-detail-rome",
-      "title": "Architectural Detail, Rome",
-      "medium": "Pen on paper",
-      "size": "9\" × 12\"",
-      "year": "2022",
+      "id": "Sanary sur Mer",
+      "title": "Mediterranean lights",
+      "medium": "Watercolor on Paper",
+      "size": "",
+      "year": "2025",
       "sold": false,
       "images": [
-        "/content/sketches/architectural-detail-rome/01.jpg"
+        "/content/sketches/Sanary sur Mer/Mediteranean Lights.jpg"
       ],
-      "coverImage": "/content/sketches/architectural-detail-rome/01.jpg"
+      "coverImage": "/content/sketches/Sanary sur Mer/Mediteranean Lights.jpg"
     },
     {
-      "id": "city-street-quick-study",
-      "title": "City Street, Quick Study",
-      "medium": "Ink on paper",
-      "size": "9\" × 12\"",
-      "year": "2023",
+      "id": "Seaside in Britany",
+      "title": "Seaside in Britany",
+      "medium": "Watercolor on Paper",
+      "size": "",
+      "year": "2025",
       "sold": false,
       "images": [
-        "/content/sketches/city-street-quick-study/01.jpg"
+        "/content/sketches/Seaside in Britany/Seaside in Britany.jpg"
       ],
-      "coverImage": "/content/sketches/city-street-quick-study/01.jpg"
+      "coverImage": "/content/sketches/Seaside in Britany/Seaside in Britany.jpg"
     },
     {
-      "id": "figure-study-i",
-      "title": "Figure Study I",
-      "medium": "Graphite on paper",
-      "size": "12\" × 16\"",
+      "id": "Warming up",
+      "title": "Untitled",
+      "medium": "Dry Pastel on Paper",
+      "size": "",
+      "year": "2026",
+      "sold": false,
+      "images": [
+        "/content/sketches/Warming up/Untitled - Pastel.jpg"
+      ],
+      "coverImage": "/content/sketches/Warming up/Untitled - Pastel.jpg"
+    },
+    {
+      "id": "Winter in Petworth - DC",
+      "title": "Winter in Petworth - DC",
+      "medium": "Dry Pastel on Paper",
+      "size": "",
       "year": "2024",
       "sold": false,
       "images": [
-        "/content/sketches/figure-study-i/01.jpg"
+        "/content/sketches/Winter in Petworth - DC/Winter in Petworth - DC.jpg"
       ],
-      "coverImage": "/content/sketches/figure-study-i/01.jpg"
-    },
-    {
-      "id": "hands-various-studies",
-      "title": "Hands, Various Studies",
-      "medium": "Graphite on paper",
-      "size": "8.5\" × 11\"",
-      "year": "2024",
-      "sold": false,
-      "images": [
-        "/content/sketches/hands-various-studies/01.jpg"
-      ],
-      "coverImage": "/content/sketches/hands-various-studies/01.jpg"
-    },
-    {
-      "id": "landscape-sketch-vermont",
-      "title": "Landscape Sketch, Vermont",
-      "medium": "Charcoal on paper",
-      "size": "11\" × 14\"",
-      "year": "2021",
-      "sold": false,
-      "images": [
-        "/content/sketches/landscape-sketch-vermont/01.jpg"
-      ],
-      "coverImage": "/content/sketches/landscape-sketch-vermont/01.jpg"
-    },
-    {
-      "id": "portrait-sketch-marta",
-      "title": "Portrait Sketch: Marta",
-      "medium": "Charcoal on paper",
-      "size": "11\" × 14\"",
-      "year": "2023",
-      "sold": true,
-      "images": [
-        "/content/sketches/portrait-sketch-marta/01.jpg"
-      ],
-      "coverImage": "/content/sketches/portrait-sketch-marta/01.jpg"
+      "coverImage": "/content/sketches/Winter in Petworth - DC/Winter in Petworth - DC.jpg"
     }
   ],
   "about": {
-    "photo": "/content/about/photo.jpg",
-    "name": "Philip Harmon",
-    "bio": "Philip Harmon is a painter and sculptor based in the Hudson Valley, New York. His work explores the tension between light and form — from intimate still lifes to expansive landscapes — using a practice rooted in direct observation and decades of atelier training in Florence and New York City.\n\nPhilip studied at the New York Academy of Art and spent two years as a resident at the Florence Academy of Art, where he developed the rigorous draftsmanship that underpins everything he makes today. His paintings favor natural light, a limited palette, and the quiet authority of objects and figures at rest.\n\nHis work has been shown at galleries in New York, Vermont, and London. He teaches occasional workshops on oil painting and figure drawing, and accepts a small number of portrait commissions each year."
+    "photo": "/content/about/Phil Painting in CP.jpg",
+    "name": "Philippe Berhault",
+    "bio": ""
   },
   "contact": [
     {
-      "label": "Email",
-      "href": "mailto:philip@philipharmon.com"
-    },
-    {
-      "label": "Instagram",
-      "href": "https://instagram.com"
-    },
-    {
       "label": "Inquire about commissions",
-      "href": "mailto:commissions@philipharmon.com"
+      "href": "info"
     }
   ]
 }
