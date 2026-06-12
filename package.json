@@ -4,6 +4,7 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
+    "start": "node scripts/build-manifest.js && vite",
     "dev": "vite",
     "build": "vite build",
     "prebuild": "node scripts/build-manifest.js",

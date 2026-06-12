@@ -50,7 +50,7 @@ Group:
 
 - Only `Title` is required. You can remove any other line you don't need.
 - To mark a piece as sold, change `Sold: No` to `Sold: Yes`.
-- Leave `Group:` blank unless you want this piece displayed side-by-side with another — see the section below.
+- Leave `Group:` blank for the default vertical image stack. Set any value (e.g. `Group: yes`) to display this artwork's images side by side — see the section below.
 
 Click **Commit changes** at the bottom to save.
 
@@ -77,22 +77,21 @@ Once all files are deleted, GitHub automatically removes the empty folder.
 
 ---
 
-## Displaying artworks side by side
+## Displaying multiple images side by side
 
-You can display two or more artworks in a single row by giving them the same `Group` value in their text files.
-
-**Example:** to show "Winter Trail" and "Central Park South" side by side, open each of their text files and set the same group name:
+When an artwork folder contains more than one image, those images normally stack vertically on the page. You can switch them to a side-by-side row by setting any value on the `Group` line in that folder's text file:
 
 ```
-Group: winter-landscapes
+Group: yes
 ```
 
-A few rules:
+The value itself doesn't matter — `yes`, `row`, `1`, or anything else will work. What matters is that the line isn't blank.
 
-- The group name can be anything you like — it just has to match exactly (case-sensitive) across all the pieces you want grouped.
-- Only works that are **consecutive** in the folder listing will be grouped together. If another piece sits between them alphabetically, the group will be broken.
-- On mobile screens, grouped works always stack into a single column — the side-by-side layout is desktop only.
-- To remove a piece from a group, clear the value so the line reads `Group:` with nothing after it, or remove the line entirely.
+A few notes:
+
+- This only affects the images **inside that single folder** — it does not link or group separate artwork folders together.
+- On mobile screens, the images always stack vertically regardless of this setting.
+- To go back to vertical stacking, clear the value so the line reads `Group:` with nothing after it, or remove the line entirely.
 
 ---
 
@@ -165,7 +164,7 @@ If a build fails (red), click into it to see the error. Most errors are caused b
 | Add a sketch | `public/content/sketches/` → same as above |
 | Remove an artwork | Delete all files inside its folder |
 | Mark as sold | Edit `info.txt`, set `Sold: Yes` |
-| Display works side by side | Give them the same `Group:` value in their text files |
+| Show multiple images side by side | Set any value on the `Group:` line in that artwork's text file |
 | Update your photo | `public/content/about/` → delete old photo, upload new one |
 | Update your bio | Edit `public/content/about/bio.txt` |
 | Update contact links | Edit `public/content/contact/contact.txt` |

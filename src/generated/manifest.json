@@ -45,8 +45,8 @@
       "medium": "Oil on Canvas",
       "size": "",
       "year": "2025",
-      "sold": false,
-      "group": null,
+      "sold": true,
+      "group": "Yes",
       "images": [
         "/content/paintings/Seaside Strawl/Large format _ Untitled 122025 - Crop Mountain.JPG",
         "/content/paintings/Seaside Strawl/Large format _ Untitled 122025 - CropFigure.JPG",
