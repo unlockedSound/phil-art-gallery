@@ -45,7 +45,7 @@
       "medium": "Oil on Canvas",
       "size": "",
       "year": "2025",
-      "sold": true,
+      "sold": false,
       "group": "Yes",
       "images": [
         "/content/paintings/Seaside Strawl/Large format _ Untitled 122025 - Crop Mountain.JPG",
@@ -153,12 +153,18 @@
   "about": {
     "photo": "/content/about/Phil Painting in CP.jpg",
     "name": "Philippe Berhault",
-    "bio": "Philipe is a French multi disciplinary artist based in New-York. Enriched by his professional journeys and lived experience in multiple countries, Philippe explores the attention we bring to the world that surrounds us."
+    "bio": "Philipe is a French multi disciplinary artist based in New York."
   },
   "contact": [
     {
       "label": "Email",
-      "href": "mailto:pberhault@gmail.com"
+      "href": "mailto:pberhault@gmail.com",
+      "text": "pberhault@gmail.com"
+    },
+    {
+      "label": "Handle",
+      "href": "https://www.instagram.com/philippe_berhault/",
+      "text": "@philippe_berhault"
     }
   ]
 }

@@ -115,15 +115,32 @@ function buildContact() {
   if (!existsSync(contactPath)) return []
 
   const text = readFileSync(contactPath, 'utf8')
-  const links = []
+  const entries = []
   for (const line of text.split('\n')) {
     const i = line.indexOf(':')
     if (i === -1) continue
     const label = line.slice(0, i).trim()
     const value = line.slice(i + 1).trim()
     if (!label || !value) continue
+    entries.push({ label, value })
+  }
+
+  const instagramEntry = entries.find(e => e.label.toLowerCase() === 'instagram')
+  const instagramUrl = instagramEntry ? instagramEntry.value : null
+
+  const links = []
+  for (const { label, value } of entries) {
+    if (label.toLowerCase() === 'instagram') continue
+
+    if (label.toLowerCase() === 'handle' && value.startsWith('@')) {
+      const href = instagramUrl || `https://www.instagram.com/${value.slice(1)}/`
+      links.push({ label, href, text: value })
+      continue
+    }
+
     const href = value.includes('@') && !value.startsWith('http') ? `mailto:${value}` : value
-    links.push({ label, href })
+    const displayText = href.startsWith('mailto:') ? value : label
+    links.push({ label, href, text: displayText })
   }
   return links
 }

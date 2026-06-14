@@ -11,7 +11,7 @@ export default function ContactPage() {
         <p className={styles.empty}>No contact information available.</p>
       ) : (
         <ul className={styles.links}>
-          {links.map(({ label, href }) => (
+          {links.map(({ label, href, text }) => (
             <li key={label}>
               <a
                 href={href}
@@ -20,7 +20,7 @@ export default function ContactPage() {
                   ? {}
                   : { target: '_blank', rel: 'noopener noreferrer' })}
               >
-                {label}
+                {text || label}
               </a>
             </li>
           ))}
