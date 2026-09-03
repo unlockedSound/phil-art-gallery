@@ -3,4 +3,4 @@ Medium: Oil on canvas
 Size:18”x25”
 Year: 
 Sold:No
-Group: Yes
+Group:
