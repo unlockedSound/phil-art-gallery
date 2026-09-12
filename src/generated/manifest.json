@@ -1,93 +1,164 @@
 {
   "paintings": [
     {
-      "id": "Cascade du Chatelat",
-      "title": "Chute du Chatelat",
+      "id": "25 Plein-Air-in-New-York",
+      "title": "Tompkins Park / Summer lights in Riverside",
       "medium": "Oil on Canvas",
-      "size": "25”x18”",
-      "year": "2025",
-      "sold": false,
-      "group": null,
-      "images": [
-        "/content/paintings/Cascade du Chatelat/Chutes du Chatelat - Philippe Berhault - 2025.JPG"
-      ],
-      "coverImage": "/content/paintings/Cascade du Chatelat/Chutes du Chatelat - Philippe Berhault - 2025.JPG"
-    },
-    {
-      "id": "Central Park South",
-      "title": "Mid Day in Central Park",
-      "medium": "Oil on Canvas",
-      "size": "12”x16”",
-      "year": "2025",
-      "sold": false,
-      "group": null,
-      "images": [
-        "/content/paintings/Central Park South/Central Park.jpg"
-      ],
-      "coverImage": "/content/paintings/Central Park South/Central Park.jpg"
-    },
-    {
-      "id": "Imaginary mountains",
-      "title": "Imaginary summits",
-      "medium": "Acrylic on Canvas",
-      "size": "",
-      "year": "2025",
-      "sold": false,
-      "group": null,
-      "images": [
-        "/content/paintings/Imaginary mountains/Imaginary summits.jpg"
-      ],
-      "coverImage": "/content/paintings/Imaginary mountains/Imaginary summits.jpg"
-    },
-    {
-      "id": "Seaside Strawl",
-      "title": "Seaside strawl",
-      "medium": "Oil on Canvas",
-      "size": "",
-      "year": "2025",
+      "size": "12\"x16\"",
+      "year": "",
       "sold": false,
       "group": "Yes",
       "images": [
-        "/content/paintings/Seaside Strawl/Large format _ Untitled 122025 - Crop Mountain.JPG",
-        "/content/paintings/Seaside Strawl/Large format _ Untitled 122025 - CropFigure.JPG",
-        "/content/paintings/Seaside Strawl/Large format _ Untitled 122025 - To share 5.jpg"
+        "/content/paintings/25 Plein-Air-in-New-York/A1001 Tompkins Park .JPG",
+        "/content/paintings/25 Plein-Air-in-New-York/A1021 Summer lights at Riverside park.JPG"
       ],
-      "coverImage": "/content/paintings/Seaside Strawl/Large format _ Untitled 122025 - Crop Mountain.JPG"
+      "coverImage": "/content/paintings/25 Plein-Air-in-New-York/A1001 Tompkins Park .JPG"
     },
     {
-      "id": "The Stump",
-      "title": "The Stump",
-      "medium": "",
+      "id": "32 Figures - Jack",
+      "title": "In the Bathroom / Jack",
+      "medium": "Oil on Canvas",
+      "size": "16”x20”",
+      "year": "",
+      "sold": false,
+      "group": "Yes",
+      "images": [
+        "/content/paintings/32 Figures - Jack/A1002 Model in bathroom.JPG",
+        "/content/paintings/32 Figures - Jack/A1003 Jack.JPG"
+      ],
+      "coverImage": "/content/paintings/32 Figures - Jack/A1002 Model in bathroom.JPG"
+    },
+    {
+      "id": "35 Figures",
+      "title": "Sitting model / Model with black stockings",
+      "medium": "Oil on Canvas",
+      "size": "all 16\"x20\"",
+      "year": "",
+      "sold": false,
+      "group": "Yes",
+      "images": [
+        "/content/paintings/35 Figures/A702 Girl Power.JPG",
+        "/content/paintings/35 Figures/A704 - Model with black stockings.JPG"
+      ],
+      "coverImage": "/content/paintings/35 Figures/A702 Girl Power.JPG"
+    },
+    {
+      "id": "40 Trinity Church and Invitation au Voyage",
+      "title": "Trinity Church / Invitation au Voyage",
+      "medium": "Oil on Canvas",
+      "size": "16”x20”",
+      "year": "2026",
+      "sold": false,
+      "group": null,
+      "images": [
+        "/content/paintings/40 Trinity Church and Invitation au Voyage/A953  Trinity Church New York City.JPG",
+        "/content/paintings/40 Trinity Church and Invitation au Voyage/A954 L'invitation au voyage.JPG"
+      ],
+      "coverImage": "/content/paintings/40 Trinity Church and Invitation au Voyage/A953  Trinity Church New York City.JPG"
+    },
+    {
+      "id": "55 Cloudscapes in the Alps",
+      "title": "Winter storm / Summer clouds in Chamonix",
+      "medium": "Oil on canvas",
+      "size": "18”x25”",
+      "year": "",
+      "sold": false,
+      "group": null,
+      "images": [
+        "/content/paintings/55 Cloudscapes in the Alps/A1101 Snowstorm in the Alps.jpg",
+        "/content/paintings/55 Cloudscapes in the Alps/A1102 Clouds in the Alps.jpg"
+      ],
+      "coverImage": "/content/paintings/55 Cloudscapes in the Alps/A1101 Snowstorm in the Alps.jpg"
+    },
+    {
+      "id": "60 Cascade-du-Chatelat",
+      "title": "Cascade du Chatelat",
+      "medium": "Oil on Canvas",
+      "size": "18”x25”",
+      "year": "",
+      "sold": false,
+      "group": null,
+      "images": [
+        "/content/paintings/60 Cascade-du-Chatelat/A709 - Chutes du Chatelat.JPG"
+      ],
+      "coverImage": "/content/paintings/60 Cascade-du-Chatelat/A709 - Chutes du Chatelat.JPG"
+    },
+    {
+      "id": "65 The Story we have heard",
+      "title": "The stories we've heard",
+      "medium": "Oil on canvas",
+      "size": "”",
+      "year": "",
+      "sold": false,
+      "group": "Yes",
+      "images": [
+        "/content/paintings/65 The Story we have heard/A550 -2 The stories we have heard.jpg",
+        "/content/paintings/65 The Story we have heard/A550-2 The stories we have heard.jpg"
+      ],
+      "coverImage": "/content/paintings/65 The Story we have heard/A550 -2 The stories we have heard.jpg"
+    },
+    {
+      "id": "70 Imaginary mountains",
+      "title": "Alpine dream",
+      "medium": "Acrylic on Canvas",
       "size": "",
       "year": "",
       "sold": false,
       "group": null,
       "images": [
-        "/content/paintings/The Stump/The Stump.jpg"
+        "/content/paintings/70 Imaginary mountains/Imaginary summits.jpg"
       ],
-      "coverImage": "/content/paintings/The Stump/The Stump.jpg"
+      "coverImage": "/content/paintings/70 Imaginary mountains/Imaginary summits.jpg"
     },
     {
-      "id": "Winter Trail",
+      "id": "75 Winter Trail",
       "title": "Winter Trail",
       "medium": "Oil on Board",
       "size": "",
-      "year": "2026",
+      "year": "",
       "sold": false,
       "group": null,
       "images": [
-        "/content/paintings/Winter Trail/Winter Trail.jpg"
+        "/content/paintings/75 Winter Trail/Winter Trail.jpg"
       ],
-      "coverImage": "/content/paintings/Winter Trail/Winter Trail.jpg"
+      "coverImage": "/content/paintings/75 Winter Trail/Winter Trail.jpg"
+    },
+    {
+      "id": "77 The Stump and South Central Park",
+      "title": "The Stump / South Central Park",
+      "medium": "Oil on Canvas",
+      "size": "16”x20”",
+      "year": "",
+      "sold": false,
+      "group": "Yes",
+      "images": [
+        "/content/paintings/77 The Stump and South Central Park/A400 South Central Park.JPG",
+        "/content/paintings/77 The Stump and South Central Park/A401 The Stump in Central Park.jpg"
+      ],
+      "coverImage": "/content/paintings/77 The Stump and South Central Park/A400 South Central Park.JPG"
+    },
+    {
+      "id": "80 Cloudscapes",
+      "title": "Clouds over the mountains & Cloud on an orange sky",
+      "medium": "Oil on Canvas",
+      "size": "16”x20”",
+      "year": "",
+      "sold": false,
+      "group": "Yes",
+      "images": [
+        "/content/paintings/80 Cloudscapes/A201 - Cloudscape over the Mountains.JPG",
+        "/content/paintings/80 Cloudscapes/A202 Cloud on an orange sky.JPG"
+      ],
+      "coverImage": "/content/paintings/80 Cloudscapes/A201 - Cloudscape over the Mountains.JPG"
     }
   ],
   "sculptures": [
     {
       "id": "One foot forward",
       "title": "One foot forward",
-      "medium": "Paster",
+      "medium": "Plaster",
       "size": "",
-      "year": "2026",
+      "year": "",
       "sold": false,
       "group": null,
       "images": [
@@ -96,64 +167,10 @@
       "coverImage": "/content/sculptures/One foot forward/one foot forward.jpg"
     }
   ],
-  "sketches": [
-    {
-      "id": "Sanary sur Mer",
-      "title": "Mediterranean lights",
-      "medium": "Watercolor on Paper",
-      "size": "",
-      "year": "2025",
-      "sold": false,
-      "group": null,
-      "images": [
-        "/content/sketches/Sanary sur Mer/Mediteranean Lights.jpg"
-      ],
-      "coverImage": "/content/sketches/Sanary sur Mer/Mediteranean Lights.jpg"
-    },
-    {
-      "id": "Seaside in Britany",
-      "title": "Seaside in Britany",
-      "medium": "Watercolor on Paper",
-      "size": "",
-      "year": "2025",
-      "sold": false,
-      "group": null,
-      "images": [
-        "/content/sketches/Seaside in Britany/Seaside in Britany.jpg"
-      ],
-      "coverImage": "/content/sketches/Seaside in Britany/Seaside in Britany.jpg"
-    },
-    {
-      "id": "Warming up",
-      "title": "Untitled",
-      "medium": "Dry Pastel on Paper",
-      "size": "",
-      "year": "2026",
-      "sold": false,
-      "group": null,
-      "images": [
-        "/content/sketches/Warming up/Untitled - Pastel.jpg"
-      ],
-      "coverImage": "/content/sketches/Warming up/Untitled - Pastel.jpg"
-    },
-    {
-      "id": "Winter in Petworth - DC",
-      "title": "Winter in Petworth - DC",
-      "medium": "Dry Pastel on Paper",
-      "size": "",
-      "year": "2024",
-      "sold": false,
-      "group": null,
-      "images": [
-        "/content/sketches/Winter in Petworth - DC/Winter in Petworth - DC.jpg"
-      ],
-      "coverImage": "/content/sketches/Winter in Petworth - DC/Winter in Petworth - DC.jpg"
-    }
-  ],
   "about": {
-    "photo": "/content/about/Phil Painting in CP.jpg",
+    "photo": null,
     "name": "Philippe Berhault",
-    "bio": "Philipe is a French multi disciplinary artist based in New York."
+    "bio": "Philippe is a French multi disciplinary artist based in New York."
   },
   "contact": [
     {

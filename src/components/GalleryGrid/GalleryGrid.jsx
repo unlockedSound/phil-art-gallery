@@ -13,7 +13,10 @@ export default function GalleryGrid({ artworks }) {
           {idx > 0 && <hr className={styles.divider} />}
           <section className={styles.band}>
             <figure className={styles.work}>
-              <div className={artwork.group ? styles.imagesRow : styles.images}>
+              <div
+                className={artwork.group ? styles.imagesRow : styles.images}
+                style={artwork.group ? { '--image-count': artwork.images.length } : undefined}
+              >
                 {artwork.images.map((src, i) => (
                   <img
                     key={src}

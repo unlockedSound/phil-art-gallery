@@ -149,11 +149,10 @@ const manifest = existsSync(CONTENT_DIR)
   ? {
       paintings: buildSection('paintings'),
       sculptures: buildSection('sculptures'),
-      sketches: buildSection('sketches'),
       about: buildAbout(),
       contact: buildContact(),
     }
-  : { paintings: [], sculptures: [], sketches: [], about: { photo: null, name: '', bio: '' }, contact: [] }
+  : { paintings: [], sculptures: [], about: { photo: null, name: '', bio: '' }, contact: [] }
 
 mkdirSync(dirname(OUTPUT_FILE), { recursive: true })
 writeFileSync(OUTPUT_FILE, JSON.stringify(manifest, null, 2))
@@ -161,6 +160,5 @@ writeFileSync(OUTPUT_FILE, JSON.stringify(manifest, null, 2))
 console.log(`Manifest written: ${OUTPUT_FILE}`)
 console.log(`  paintings:  ${manifest.paintings.length} sets`)
 console.log(`  sculptures: ${manifest.sculptures.length} sets`)
-console.log(`  sketches:   ${manifest.sketches.length} sets`)
 console.log(`  about:      ${manifest.about?.name || '(none)'}`)
 console.log(`  contact:    ${manifest.contact.length} links`)

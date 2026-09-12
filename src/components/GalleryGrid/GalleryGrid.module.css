@@ -22,7 +22,6 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  max-width: 640px;
   width: 100%;
 }
 
@@ -40,26 +39,34 @@
   width: 100%;
   display: flex;
   flex-direction: row;
+  justify-content: center;
   gap: 16px;
   align-items: flex-start;
 }
 
 .imagesRow .image {
-  flex: 1 1 0;
+  flex: 0 1 auto;
   min-width: 0;
-  width: 100%;
-  height: auto;
+  width: calc((100% - (var(--image-count, 2) - 1) * 16px) / var(--image-count, 2));
 }
 
+/* Each image is scaled to fill a 90% viewport box, preserving aspect ratio —
+   a tall image is bounded by height and a wide one by width. Unlike a plain
+   max-width/max-height cap, this also scales SMALL source images up to fill
+   the box (at the cost of looking soft/pixelated if the file is low-res). */
 .image {
-  max-width: 100%;
-  height: auto;
+  width: min(90vw, 100%);
+  height: 90vh;
+  object-fit: contain;
   display: block;
+  margin: 0 auto;
 }
 
 .caption {
   text-align: center;
   padding-top: 20px;
+  max-width: 640px;
+  margin: 0 auto;
 }
 
 .captionTitle {
@@ -107,6 +114,6 @@
 
   .imagesRow .image {
     flex: none;
-    width: 100%;
+    width: min(90vw, 100%);
   }
 }

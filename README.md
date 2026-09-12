@@ -14,14 +14,13 @@ All content lives in the `public/content/` folder in this repository. You add ar
 
 ---
 
-## Adding a new artwork (painting, sculpture, or sketch)
+## Adding a new artwork (painting or sculpture)
 
 **Step 1 — Go to the right folder**
 
 Navigate to one of these folders depending on the type of work:
 - `public/content/paintings/`
 - `public/content/sculptures/`
-- `public/content/sketches/`
 
 **Step 2 — Create a folder for the new set**
 
@@ -62,6 +61,15 @@ Click **Add file → Upload files**, drag in your image(s), then click **Commit 
 
 - Accepted formats: `.jpg`, `.jpeg`, `.png`, `.webp`
 - If you upload multiple images, they will all appear in the lightbox for that piece. The first image (alphabetically) is used as the cover/thumbnail.
+
+**Image resolution — how big should the file be?**
+
+The site never enlarges a photo beyond its original size — it only ever shrinks a photo down to fit the screen. So if a photo isn't big enough to begin with, it will display smaller than it could and look softer than the other pieces. To make sure a piece fills the screen properly on modern (high-resolution/"retina") displays:
+
+- **Landscape photos** (wider than they are tall): at least **2200px wide**.
+- **Portrait photos** (taller than they are wide): at least **1400px tall**.
+
+Most phone cameras and scanners easily produce this or more, so this is only worth double-checking if a photo looks small once it's live. The `Imaginary summits.jpg` file is a real example of this problem — at only 430×348px, it displays much smaller than the rest of the gallery.
 
 The site will rebuild automatically. Give it 2–3 minutes, then refresh your site to see the new artwork.
 
@@ -161,10 +169,10 @@ If a build fails (red), click into it to see the error. Most errors are caused b
 |---|---|
 | Add a painting | `public/content/paintings/` → create new folder with `info.txt` + upload images |
 | Add a sculpture | `public/content/sculptures/` → same as above |
-| Add a sketch | `public/content/sketches/` → same as above |
 | Remove an artwork | Delete all files inside its folder |
 | Mark as sold | Edit `info.txt`, set `Sold: Yes` |
 | Show multiple images side by side | Set any value on the `Group:` line in that artwork's text file |
 | Update your photo | `public/content/about/` → delete old photo, upload new one |
 | Update your bio | Edit `public/content/about/bio.txt` |
 | Update contact links | Edit `public/content/contact/contact.txt` |
+| Minimum image resolution | Landscape: 2200px wide · Portrait: 1400px tall |
