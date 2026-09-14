@@ -3,4 +3,4 @@ Medium: Plaster
 Size:
 Year: 
 Sold:No
-Group:
+Group: Yes
