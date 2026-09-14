@@ -3,4 +3,4 @@ Medium: Varnished raw clay
 Size:
 Year: 
 Sold:No
-Group:
+Group:Yes
