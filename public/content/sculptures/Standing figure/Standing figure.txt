@@ -3,4 +3,4 @@ Medium: Painted plaster
 Size:
 Year: 
 Sold:No
-Group:
+Group:yes
