@@ -43,38 +43,38 @@
   display: flex;
   flex-direction: row;
   justify-content: center;
-  gap: 16px;
+  gap: 32px;
   align-items: flex-start;
 }
 
 /* No auto margins here: in a flex row they soak up the leftover space and push
-   height-capped images apart instead of keeping them 16px apart. */
+   height-capped images apart instead of keeping them 32px apart. */
 .imagesRow .image {
   flex: 0 1 auto;
   min-width: 0;
   margin: 0;
-  width: calc((100% - (var(--image-count, 2) - 1) * 16px) / var(--image-count, 2));
+  width: calc((100% - (var(--image-count, 2) - 1) * 32px) / var(--image-count, 2));
 }
 
 /* Once every image's shape is known (--aspect / --aspect-sum, set in
    GalleryGrid.jsx), each image gets a width proportional to its aspect ratio,
-   so all images end up the same height (capped at 90vh) with edges aligned. */
+   so all images end up the same height (capped at 81vh) with edges aligned. */
 .imagesRow[style*='--aspect-sum'] .image {
   width: min(
-    calc((100% - (var(--image-count, 2) - 1) * 16px) * var(--aspect) / var(--aspect-sum)),
-    calc(90vh * var(--aspect))
+    calc((100% - (var(--image-count, 2) - 1) * 32px) * var(--aspect) / var(--aspect-sum)),
+    calc(81vh * var(--aspect))
   );
   height: auto;
   aspect-ratio: var(--aspect);
 }
 
-/* Each image is scaled to fill a 90% viewport box, preserving aspect ratio —
+/* Each image is scaled to fill a 90vw × 81vh box, preserving aspect ratio —
    a tall image is bounded by height and a wide one by width. Unlike a plain
    max-width/max-height cap, this also scales SMALL source images up to fill
    the box (at the cost of looking soft/pixelated if the file is low-res). */
 .image {
   width: min(90vw, 100%);
-  height: 90vh;
+  height: 81vh;
   object-fit: contain;
   display: block;
   margin: 0 auto;
@@ -131,9 +131,9 @@
     gap: 32px;
   }
 
-  /* On a narrow screen width is always the limit, so a fixed 90vh box would
+  /* On a narrow screen width is always the limit, so a fixed 81vh box would
      leave big blank bands above and below each image. Size to the image's
-     own shape instead, still capped at 90vh for very tall pieces. */
+     own shape instead, still capped at 81vh for very tall pieces. */
   .image,
   .imagesRow .image,
   .imagesRow[style*='--aspect-sum'] .image {
@@ -141,7 +141,7 @@
     width: auto;
     max-width: 100%;
     height: auto;
-    max-height: 90vh;
+    max-height: 81vh;
     aspect-ratio: auto;
     margin: 0 auto;
   }
