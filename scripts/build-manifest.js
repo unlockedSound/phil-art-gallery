@@ -132,6 +132,12 @@ function buildContact() {
   for (const { label, value } of entries) {
     if (label.toLowerCase() === 'instagram') continue
 
+    // A "Note:" line is shown as plain text, not a link
+    if (label.toLowerCase() === 'note') {
+      links.push({ label, href: null, text: value })
+      continue
+    }
+
     if (label.toLowerCase() === 'handle' && value.startsWith('@')) {
       const href = instagramUrl || `https://www.instagram.com/${value.slice(1)}/`
       links.push({ label, href, text: value })
