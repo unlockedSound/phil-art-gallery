@@ -148,6 +148,7 @@ Website: https://philartist.com
 - The label (e.g. `Instagram`) is the clickable link text.
 - Email addresses (anything with `@` that doesn't start with `http`) are automatically linked with `mailto:`.
 - Add or remove lines freely to add or remove contact links.
+- A line starting with `Note:` is shown as plain text below the links (not a link), e.g. `Note: Reach out for enquiries or commissions.`
 
 ---
 

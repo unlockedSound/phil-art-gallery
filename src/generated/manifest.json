@@ -9,16 +9,16 @@
       "sold": false,
       "group": "Yes",
       "images": [
-        "/content/paintings/25 Plein-Air-in-New-York/A1001 Tompkins Park .JPG",
+        "/content/paintings/25 Plein-Air-in-New-York/A1001 Tompkins Park -resized H2514.jpg",
         "/content/paintings/25 Plein-Air-in-New-York/A1021 Summer lights at Riverside park.JPG"
       ],
-      "coverImage": "/content/paintings/25 Plein-Air-in-New-York/A1001 Tompkins Park .JPG"
+      "coverImage": "/content/paintings/25 Plein-Air-in-New-York/A1001 Tompkins Park -resized H2514.jpg"
     },
     {
       "id": "32 Figures - Jack",
       "title": "In the Bathroom / Jack",
       "medium": "Oil on Canvas",
-      "size": "16”x20”",
+      "size": "16\"x20\"",
       "year": "",
       "sold": false,
       "group": "Yes",
@@ -32,7 +32,7 @@
       "id": "35 Figures",
       "title": "Sitting model / Model with black stockings",
       "medium": "Oil on Canvas",
-      "size": "all 16\"x20\"",
+      "size": "16\"x20\"",
       "year": "",
       "sold": false,
       "group": "Yes",
@@ -46,10 +46,10 @@
       "id": "40 Trinity Church and Invitation au Voyage",
       "title": "Trinity Church / Invitation au Voyage",
       "medium": "Oil on Canvas",
-      "size": "16”x20”",
+      "size": "16\"x20\"",
       "year": "2026",
       "sold": false,
-      "group": null,
+      "group": "Yes",
       "images": [
         "/content/paintings/40 Trinity Church and Invitation au Voyage/A953  Trinity Church New York City.JPG",
         "/content/paintings/40 Trinity Church and Invitation au Voyage/A954 L'invitation au voyage.JPG"
@@ -60,10 +60,10 @@
       "id": "55 Cloudscapes in the Alps",
       "title": "Winter storm / Summer clouds in Chamonix",
       "medium": "Oil on canvas",
-      "size": "18”x25”",
+      "size": "18\"x25\"",
       "year": "",
       "sold": false,
-      "group": null,
+      "group": "Yes",
       "images": [
         "/content/paintings/55 Cloudscapes in the Alps/A1101 Snowstorm in the Alps.jpg",
         "/content/paintings/55 Cloudscapes in the Alps/A1102 Clouds in the Alps.jpg"
@@ -74,7 +74,7 @@
       "id": "60 Cascade-du-Chatelat",
       "title": "Cascade du Chatelat",
       "medium": "Oil on Canvas",
-      "size": "18”x25”",
+      "size": "18\"x25\"",
       "year": "",
       "sold": false,
       "group": null,
@@ -87,28 +87,14 @@
       "id": "65 The Story we have heard",
       "title": "The stories we've heard",
       "medium": "Oil on canvas",
-      "size": "”",
+      "size": "",
       "year": "",
       "sold": false,
       "group": "Yes",
       "images": [
-        "/content/paintings/65 The Story we have heard/A550 -2 The stories we have heard.jpg",
         "/content/paintings/65 The Story we have heard/A550-2 The stories we have heard.jpg"
       ],
-      "coverImage": "/content/paintings/65 The Story we have heard/A550 -2 The stories we have heard.jpg"
-    },
-    {
-      "id": "70 Imaginary mountains",
-      "title": "Alpine dream",
-      "medium": "Acrylic on Canvas",
-      "size": "",
-      "year": "",
-      "sold": false,
-      "group": null,
-      "images": [
-        "/content/paintings/70 Imaginary mountains/Imaginary summits.jpg"
-      ],
-      "coverImage": "/content/paintings/70 Imaginary mountains/Imaginary summits.jpg"
+      "coverImage": "/content/paintings/65 The Story we have heard/A550-2 The stories we have heard.jpg"
     },
     {
       "id": "75 Winter Trail",
@@ -127,7 +113,7 @@
       "id": "77 The Stump and South Central Park",
       "title": "The Stump / South Central Park",
       "medium": "Oil on Canvas",
-      "size": "16”x20”",
+      "size": "16\"x20\"",
       "year": "",
       "sold": false,
       "group": "Yes",
@@ -141,7 +127,7 @@
       "id": "80 Cloudscapes",
       "title": "Clouds over the mountains & Cloud on an orange sky",
       "medium": "Oil on Canvas",
-      "size": "16”x20”",
+      "size": "16\"x20\"",
       "year": "",
       "sold": false,
       "group": "Yes",
@@ -162,15 +148,55 @@
       "sold": false,
       "group": null,
       "images": [
-        "/content/sculptures/One foot forward/one foot forward.jpg"
+        "/content/sculptures/One foot forward/one foot forward 1.jpg"
       ],
-      "coverImage": "/content/sculptures/One foot forward/one foot forward.jpg"
+      "coverImage": "/content/sculptures/One foot forward/one foot forward 1.jpg"
+    },
+    {
+      "id": "Resting face",
+      "title": "Resting face",
+      "medium": "Varnished raw clay",
+      "size": "",
+      "year": "",
+      "sold": false,
+      "group": "Yes",
+      "images": [
+        "/content/sculptures/Resting face/Face 0.jpg"
+      ],
+      "coverImage": "/content/sculptures/Resting face/Face 0.jpg"
+    },
+    {
+      "id": "Standing figure",
+      "title": "Standing figure",
+      "medium": "Painted plaster",
+      "size": "",
+      "year": "",
+      "sold": false,
+      "group": "yes",
+      "images": [
+        "/content/sculptures/Standing figure/Standing figure .jpg",
+        "/content/sculptures/Standing figure/Standing figure 0.jpg"
+      ],
+      "coverImage": "/content/sculptures/Standing figure/Standing figure .jpg"
+    },
+    {
+      "id": "Symphony of curves",
+      "title": "Symphony of curves",
+      "medium": "Plaster",
+      "size": "",
+      "year": "",
+      "sold": false,
+      "group": null,
+      "images": [
+        "/content/sculptures/Symphony of curves/Woman's bust .jpg"
+      ],
+      "coverImage": "/content/sculptures/Symphony of curves/Woman's bust .jpg"
     }
   ],
   "about": {
-    "photo": null,
+    "photo": "/content/about/Photo Philippe Fall in CP 2 - cropped.jpg",
     "name": "Philippe Berhault",
-    "bio": "Philippe is a French multi disciplinary artist based in New York."
+    "bio": "French multidisciplinary artist currently based in New York.\n\nI paint to better see this world and imagine new ones"
   },
   "contact": [
     {
@@ -182,6 +208,11 @@
       "label": "Handle",
       "href": "https://www.instagram.com/philippe_berhault/",
       "text": "@philippe_berhault"
+    },
+    {
+      "label": "Note",
+      "href": null,
+      "text": "Reach out to say hello, for enquiries, list of available works or commissions."
     }
   ]
 }

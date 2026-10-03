@@ -34,9 +34,12 @@
   align-items: center;
 }
 
-/* Row — images in one artwork displayed side by side */
+/* Row — images in one artwork displayed side by side. The row may extend past
+   the page column (centered by .work) so a pair can reach roughly the same
+   height as a single work instead of being squeezed into half the column. */
 .imagesRow {
-  width: 100%;
+  width: min(90vw, 1400px);
+  flex-shrink: 0;
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -48,6 +51,18 @@
   flex: 0 1 auto;
   min-width: 0;
   width: calc((100% - (var(--image-count, 2) - 1) * 16px) / var(--image-count, 2));
+}
+
+/* Once every image's shape is known (--aspect / --aspect-sum, set in
+   GalleryGrid.jsx), each image gets a width proportional to its aspect ratio,
+   so all images end up the same height (capped at 90vh) with edges aligned. */
+.imagesRow[style*='--aspect-sum'] .image {
+  width: min(
+    calc((100% - (var(--image-count, 2) - 1) * 16px) * var(--aspect) / var(--aspect-sum)),
+    calc(90vh * var(--aspect))
+  );
+  height: auto;
+  aspect-ratio: var(--aspect);
 }
 
 /* Each image is scaled to fill a 90% viewport box, preserving aspect ratio —
@@ -108,12 +123,17 @@
   }
 
   .imagesRow {
+    width: 100%;
     flex-direction: column;
     gap: 32px;
   }
 
-  .imagesRow .image {
+  .imagesRow .image,
+  .imagesRow[style*='--aspect-sum'] .image {
     flex: none;
     width: min(90vw, 100%);
+    height: 90vh;
+    aspect-ratio: auto;
+    object-fit: contain;
   }
 }

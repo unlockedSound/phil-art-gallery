@@ -2,7 +2,9 @@ import styles from './ContactPage.module.css'
 import { getContact } from '../utils/content'
 
 export default function ContactPage() {
-  const links = getContact()
+  const entries = getContact()
+  const links = entries.filter(e => e.href)
+  const notes = entries.filter(e => !e.href)
 
   return (
     <div className={styles.page}>
@@ -26,6 +28,9 @@ export default function ContactPage() {
           ))}
         </ul>
       )}
+      {notes.map(({ text }, i) => (
+        <p key={i} className={styles.note}>{text}</p>
+      ))}
     </div>
   )
 }
